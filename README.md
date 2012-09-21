@@ -2,7 +2,7 @@
 
 If the URL of a page, post, existing is changed, all the internal links pointing to this page website, post must be updated automatically
 
-* Contributors: http://profiles.wordpress.org/momo360modena/ - http://http://profiles.wordpress.org/asadowski10
+* Contributors: http://profiles.wordpress.org/momo360modena/ - http://profiles.wordpress.org/asadowski10
 * Donate link: http://www.beapi.fr/donate/
 * Tags: url, path, url memory, 
 * Requires at least: 3.0
