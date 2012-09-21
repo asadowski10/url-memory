@@ -1,0 +1,136 @@
+# Translation of the WordPress plugin   by .
+# Copyright (C) 2010
+# This file is distributed under the same license as the  package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Relation post type\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-10 18:04+0100\n"
+"PO-Revision-Date: 2012-08-10 18:05+0100\n"
+"Last-Translator: \n"
+"Language-Team: Beapi <beapi@beapi.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../inc/class.admin.manage.php:49
+msgid "No redirection was found."
+msgstr ""
+
+#: ../inc/class.admin.manage.php:95
+msgid "Id"
+msgstr ""
+
+#: ../inc/class.admin.manage.php:96
+msgid "Status"
+msgstr ""
+
+#: ../inc/class.admin.manage.php:97
+msgid "Post_id"
+msgstr ""
+
+#: ../inc/class.admin.manage.php:98
+msgid "Path"
+msgstr ""
+
+#: ../inc/class.admin.manage.php:202
+msgid "Delete"
+msgstr ""
+
+#: ../inc/class.admin.manage.php:231
+msgid "Error"
+msgstr ""
+
+#: ../inc/class.admin.manage.php:234
+msgid "No results"
+msgstr ""
+
+#: ../inc/class.admin.manage.php:237
+#, php-format
+msgid "%d deleted elements"
+msgstr ""
+
+#: ../inc/class.admin.php:46
+msgid "URL Memory Settings"
+msgstr ""
+
+#: ../inc/class.admin.php:46
+msgid "URL Memory"
+msgstr ""
+
+#: ../inc/class.admin.php:48
+msgid "Manage Url Redirect"
+msgstr ""
+
+#: ../inc/class.admin.php:66
+msgid "End of process"
+msgstr ""
+
+#: ../inc/class.admin.php:67
+msgid "Start of process"
+msgstr ""
+
+#: ../inc/class.admin.php:68
+msgid "You need PPP valid to make working this script"
+msgstr ""
+
+#: ../inc/class.admin.php:69
+msgid "Processing of "
+msgstr ""
+
+#: ../inc/class.admin.php:89
+msgid "URL redirects"
+msgstr ""
+
+#: ../inc/class.admin.php:123
+#: ../inc/class.admin.php:135
+msgid "Flush Table"
+msgstr ""
+
+#: ../inc/class.admin.php:128
+msgid "You can delete all redirections by emptying the database"
+msgstr ""
+
+#: ../inc/class.admin.php:139
+msgid "Import all your datas"
+msgstr ""
+
+#: ../inc/class.admin.php:144
+msgid "As you want, you can import all your existing content."
+msgstr ""
+
+#: ../inc/class.admin.php:151
+msgid "Import to Database"
+msgstr ""
+
+#: ../inc/class.admin.php:176
+msgid "Nothing deleted... Because table is empty !"
+msgstr ""
+
+#: ../inc/class.admin.php:179
+#, php-format
+msgid "%d rows deleted."
+msgstr ""
+
+#: ../inc/class.admin.php:278
+msgid "Manage URL Redirects"
+msgstr ""
+
+#: ../inc/class.admin.post.php:65
+#, php-format
+msgid "Warning: this URL has already been used in the past, a redirection to the new was created. <a href=\"%s\">Click here</a> to remove this redirection. If not, consider changing your slug!"
+msgstr ""
+
+#: ../inc/class.admin.post.php:110
+msgid "Active redirections"
+msgstr ""
+
+#: ../inc/class.admin.post.php:130
+msgid "The URI of this content has been changed in the past. Following is a list of active redirects to this content : "
+msgstr ""
+
