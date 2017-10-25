@@ -5,7 +5,7 @@
  Description: Save history URLs for a post and manages 301 redirects for SEO
  Author: Amaury Balmer, Alexandre Sadowski
  Author URI: http://www.beapi.fr
- Version: 1.1
+ Version: 1.0.1
  Text Domain: url-memory
  Domain Path: /languages/
  Network: false
@@ -35,7 +35,7 @@ $wpdb -> tables[] = 'url_redirect';
 $wpdb -> url_redirect = $wpdb -> prefix . 'url_redirect';
 
 // Folder name
-define('UM_VERSION', '1.0');
+define('UM_VERSION', '1.0.1');
 define('UM_OPTION', 'url_redirect');
 
 define('UM_URL', plugins_url('', __FILE__));
@@ -63,7 +63,7 @@ if (is_admin()) {// Call admin class
 	if (!class_exists('WP_List_Table')) {
 		require_once (ABSPATH . '/wp-admin/includes/class-wp-list-table.php');
 	}
-	
+
 	// Call Admin Manage class
 	require (UM_DIR . '/inc/class.admin.manage.php');
 }

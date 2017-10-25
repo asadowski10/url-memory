@@ -1,4 +1,4 @@
-# Url Memory
+# URL Memory
 
 If the URL of a page, post, existing is changed, all the internal links pointing to this page website, post must be updated automatically
 
@@ -6,7 +6,7 @@ If the URL of a page, post, existing is changed, all the internal links pointing
 * Donate link: http://www.beapi.fr/donate/
 * Tags: url, path, url memory, 
 * Requires at least: 3.0
-* Tested up to: 3.4.1
+* Tested up to: 4.8.2
 * Stable tag: 1.0
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -39,3 +39,6 @@ This plugin is developped on WordPress 3.4, with the constant WP_DEBUG to TRUE.
 
 * Version 1.0 :
 	* First version stable
+
+* Version 1.0.1 :
+    * Add filter "apply_filters( 'url_memory_redirect_request_uri', $_SERVER['REQUEST_URI'] );" to parse result request_uri before request in redirections table
